@@ -1,0 +1,5 @@
+import pyautogui
+from time import sleep
+
+sleep(1)
+im3 = pyautogui.screenshot('img\\screenshot1.png', region=(10, 120, 500, 500))
